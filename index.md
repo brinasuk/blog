@@ -4,6 +4,7 @@
 
 layout: home
 tags:
+    - renting
     - physics
     - CS
 ---
