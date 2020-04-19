@@ -2,7 +2,7 @@
 layout: home
 title: Landau Level of Weyl Semimedal
 date: 2019-11-16
-author: 曾许曌秋
+author: Chong
 category: PhyBlogs
 tags:
     - QM
@@ -15,7 +15,7 @@ header-img: /images/documents-export-2019-11-16/hand.svg
 
 [TOC]
 
-# QM大作业2——weyl半金属的Landau Level
+# test
 > by 曾许曌秋 181240004
 > 南京大学匡亚明学院大二数理
 > 2019.11
