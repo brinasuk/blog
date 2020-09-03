@@ -4,7 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>萨里大学房源 GU29SD/24</title>
+    <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<!--[if IE 8]>
 		<link rel="stylesheet" type="text/css" href="css/ie8.css">
 	<![endif]-->
@@ -15,6 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="css/ie6.css">
 	<![endif]-->
 	<style>
+        .mySlides {display:none;}
 	.pagination {
 	    display: inline-block;
 	}
@@ -36,7 +39,8 @@
 	}
 
 	.pagination a:hover:not(.active) {background-color: #ddd;}
-	</style>
+
+    </style>
 </head>
 <body>
 	<div id="header">
@@ -58,186 +62,178 @@
 		</div>
 	</div>
 	<div id="body">
-		 <div class="content">
-
-		  	<!--
-		      	<img  src="images/logo - Banner2.png" alt="Man Algorithm" class="pull-right"/>
-			-->
-
-			<h1>
-				<p> 2 rooms 16 min walk to University of Surrey</p></h1>
-            <h2 style="background-color:Pink; color=#fff">
-                <table style="width:100%">
-                    <tr>
-                        <th>Email</th>
-                        <td><a href=mailto:renting@brinas.co.uk>renting@brinas.co.uk</a></td>
-                    </tr>
-                    <tr>
-                        <th rowspan="2">Telephone:</th>
-                        <td>英国🇬🇧：+44 07503016565</td>
-                    </tr>
-                    <tr>
-                        <td>中国🇨🇳：+86 13045832454</td>
-                    </tr>
-                    <tr>
-                        <th>微信 Wechat</th>
-                        <td>BrinaHouseLTD<img src="img/bh.JPG" alt="Logo" style="width:80px;height:80px;"></td>
-                    </tr>
-                    <tr>
-                        <th>Whatsapp</th>
-                        <td>(0044)07503016565</td>
-                    </tr>
-                </table>
-                
-            </h2>
-            <h2>
-
-                 The house consists of a fully functional kitchen, a large garden, 2 en-suite rooms. The two ensuite rooms share the large kitchen! <br>
-                 <p> 200 Mb broadband internet!  </p>
-                 
-                 <ul>
-                     <li>[B7] 1 large en-suite with king size bed, private bathroom<br>
-                         <!--li>[B8] a large double room with king size bed [available from 01/10/2020]<br-->
-                             <li>[B9] 1 en-suite with private bathroom on the ground floor<br>
-                                 <!--li>B4: a small single room [available from 27/07/2019]<br-->
-                                         </ul>
-                 
-					     
-                 <p>Convenient with <br>
-                 2 mins walk to supermarket (CO-OP), gas station, and a bunches of local shops; <br>
-                 5 mins walk to the largest Chinese Restaurant in Guildford; <br>
-                 16 mins to the University of Surrey; <br>
-                 1 min walk into a large park(recreation ground) with lots of fitness equipments and activities.<br>
-                 <br>
-                
-                 
-                 3 mins to buses (4, 5, KITE, 697, ...) to town Centre or other adjacent towns. No need to take bus to the university since before the waiting for the bus you already walked there. :)<br><br>
-                 
-                 Deposit is £500. Bills are inclusive except council tax.<br>
-                 <br>
-                 
-
-Super for single professional or student. Double glazed window. Gas central heating. 
-Plenty spaces in front of the house for parking.  <br><br><br>
-
-Video tour:<br>
-<!--video width="480" height="640" controls>
-  <source src="img/9SD24/24whole - SD 480p.mp4" type="video/mp4">
-</video-->
-
-			 <a href ="Video24.html">Video tour link</a>
-</h2>
+	         <div class="w3-center">
+             
+             <h2>
+                 <p> 2 en-suite rooms 16 min walk to University of Surrey<br>
+                 两室0厅一厨两卫 步行到校16分钟</p></h2>
+             <h3 class="w3-center">Please use the buttons for Slideshow<br>
+             使用左右按键浏览图片</h3>
+          
+           <button class="w3-button demo" onclick="currentDiv(1)">Kitchen</button>
+           <button class="w3-button demo" onclick="currentDiv(2)">Kitchen2</button>
+           <button class="w3-button demo" onclick="currentDiv(3)">B7</button>
+           <button class="w3-button demo" onclick="currentDiv(4)">B7</button>
+           <button class="w3-button demo" onclick="currentDiv(5)">B7</button>
+           <button class="w3-button demo" onclick="currentDiv(6)">B7</button>
+           <button class="w3-button demo" onclick="currentDiv(7)">B9</button>
+           <button class="w3-button demo" onclick="currentDiv(8)">B9</button>
+           <button class="w3-button demo" onclick="currentDiv(9)">B9</button>
+           <button class="w3-button demo" onclick="currentDiv(10)">B9</button>
+           <button class="w3-button demo" onclick="currentDiv(11)">B9</button>
+           <button class="w3-button demo" onclick="currentDiv(12)">Bathroom1</button>
+           <button class="w3-button demo" onclick="currentDiv(13)">Bathroom1</button>
+           <button class="w3-button demo" onclick="currentDiv(14)">Bathroom1</button>
+           <button class="w3-button demo" onclick="currentDiv(15)">Map</button>
+           <button class="w3-button demo" onclick="currentDiv(16)">Floorplan</button>
+           <button class="w3-button demo" onclick="currentDiv(17)">FrontParking</button>
+           <button class="w3-button demo" onclick="currentDiv(18)">Stairs</button>
+          
+         </div>
+            <div class="w3-content w3-display-container" >
+              <img class="mySlides" src="img/9SD24/kitchen-1.JPG" style="width:100%">
+              <img class="mySlides" src="img/9SD24/kitchen-2.JPG" style="width:100%">
+                  <img class="mySlides" src="img/9SD24/b7-1.JPG" style="width:100%">
+              <img class="mySlides" src="img/9SD24/b7-2.JPG" style="width:100%">
+              <img class="mySlides" src="img/9SD24/b7-3.JPG" style="width:100%">
+              <img class="mySlides" src="img/9SD24/b7-4.JPG" style="width:100%">
+              <img class="mySlides" src="img/9SD24/b9-1.JPG" style="width:100%">
+              <img class="mySlides" src="img/9SD24/b9-2.JPG" style="width:100%">
+              <img class="mySlides" src="img/9SD24/b9-3.JPG" style="width:100%">
+              <img class="mySlides" src="img/9SD24/b9-4.JPG" style="width:100%">
+                  <img class="mySlides" src="img/9SD24/b9-5.JPG" style="width:100%">
+                  <img class="mySlides" src="img/9SD24/bath-1.jpg" style="width:100%">
+                  <img class="mySlides" src="img/9SD24/bath-2.jpg" style="width:100%">
+                  <img class="mySlides" src="img/9SD24/bath-3.jpg" style="width:100%">
+                      <img class="mySlides" src="img/9SD24/SDmap.png" style="width:100%">
+                      <img class="mySlides" src="img/9SD24/1st.png" style="width:100%">
+                      <img class="mySlides" src="img/9SD24/front.jpg" style="width:100%">
+                      <img class="mySlides" src="img/9SD24/stairs.jpg" style="width:100%">
+                          <div class="w3-section">
+                            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">❮ Prev(上一张)</button>
+                            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">Next(下一张)❯</button>
+                          </div>
+              <!--button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button-->
             
-		</div>
-		<div id="gallery">
-            <h1>Location and floor plans</h1>
+            <!--script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
 
-			<ul>
-                <li>
-                    <a href="img/9SD24/SDmap.png"><img src="img/9SD24/SDmap.png" alt="Image" style="width:210px;height:268px;"></a>
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              x[slideIndex-1].style.display = "block";
+            }
+            </script-->
+            <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-red", "");
+              }
+              x[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " w3-red";
+            }
+            </script>
+
+</div>
+            <div class="content">
+               <h3 style="background-color:Pink; color=#fff">
+                   <table style="width:100%">
+                       <tr>
+                           <th>Email</th>
+                           <td><a href=mailto:renting@brinas.co.uk>renting@brinas.co.uk</a></td>
+                       </tr>
+                       <tr>
+                           <th rowspan="2">Telephone:</th>
+                           <td>英国🇬🇧：+44 07503016565</td>
+                       </tr>
+                       <tr>
+                           <td>中国🇨🇳：+86 13045832454</td>
+                       </tr>
+                       <tr>
+                           <th>微信 Wechat</th>
+                           <td>BrinaHouseLTD<img src="img/bh.JPG" alt="Logo" style="width:80px;height:80px;"></td>
+                       </tr>
+                       <tr>
+                           <th>Whatsapp</th>
+                           <td>(0044)07503016565</td>
+                       </tr>
+                   </table>
+                   
+               </h3>
+               <h3>
+
+                    The house consists of a fully functional kitchen, a large garden, 2 en-suite rooms. The two ensuite rooms share the large kitchen! <br>
+                    <p> 200 Mb broadband internet!  </p>
                     
-                </li>
-                <!--li>
-                    <a href="img/9SD24/groundfloorplan.png"><img src="img/9SD24/groundfloorplan.png" alt="Image" style="width:210px;height:268px;"></a>
+                    <ul>
+                        <li>[B7] 1 large en-suite with king size bed, private bathroom<br>
+                            <!--li>[B8] a large double room with king size bed [available from 01/10/2020]<br-->
+                                <li>[B9] 1 en-suite with private bathroom on the ground floor<br>
+                                    <!--li>B4: a small single room [available from 27/07/2019]<br-->
+                                            </ul>
                     
-                </li-->
-                
-                <li>
-                    <a href="img/9SD24/1st.png"><img src="img/9SD24/1st.png" alt="Image" style="width:210px;height:268px;"></a>
+                            
+                    <p>Convenient with <br>
+                    2 mins walk to supermarket (CO-OP), gas station, and a bunches of local shops; <br>
+                    5 mins walk to the largest Chinese Restaurant in Guildford; <br>
+                    16 mins to the University of Surrey; <br>
+                    1 min walk into a large park(recreation ground) with lots of fitness equipments and activities.<br>
+                    <br>
+                   
                     
-                </li>
-                </ul>
-                </div>
-        <div id="gallery">
-                    <h1>Exterior and stairs</h1>
-                <ul>
-                <li>
-                    <a href="img/9SD24/front.jpg"><img src="img/9SD24/front.jpg" alt="Image" style="width:210px;height:268px;"></a>
-                </li>
-                <li>
-                    <a href="img/9SD24/stairs.jpg"><img src="img/9SD24/stairs.jpg" alt="stair" style="width:210px;height:268px;"></a>
+                    3 mins to buses (4, 5, KITE, 697, ...) to town Centre or other adjacent towns. No need to take bus to the university since before the waiting for the bus you already walked there. :)<br><br>
                     
-                </li>
-                </ul>
-                               </div>
-                       <div id="gallery">
-                                   <h1>Kitchen</h1>
-                               <ul>
-                <li>
-                    <a href="img/9SD24/kitchen-1.JPG"><img src="img/9SD24/kitchen-1.JPG" alt="b2" style="width:210px;height:168px;"></a>
+                    Deposit is £500. Bills are inclusive except council tax.<br>
+                    <br>
                     
-                </li>
-                <li>
-                    <a href="img/9SD24/kitchen-2.JPG"><img src="img/9SD24/kitchen-2.JPG" alt="b2" style="width:210px;height:168px;"></a>
-                    
-                </li>
-                </ul>
-                               </div>
-                       <div id="gallery">
-                                   <h1>B7 en-suite</h1>
-                               <ul>
-                
-                <li>
-                    <a href="img/9SD24/b7-1.JPG"><img src="img/9SD24/b7-1.JPG" alt="b1" style="width:210px;height:168px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/9SD24/b7-2.JPG"><img src="img/9SD24/b7-2.JPG" alt="b1" style="width:210px;height:168px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/9SD24/b7-3.JPG"><img src="img/9SD24/b7-3.JPG" alt="b1" style="width:210px;height:168px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/9SD24/b7-4.JPG"><img src="img/9SD24/b7-4.JPG" alt="b1" style="width:210px;height:168px;"></a>
-                    
-                </li>
-                </ul>
-                               
-                               </div>
-                       <div id="gallery">
-                                   <h1>B9 double room</h1>
-                               <ul>
-                <li>
-                    <a href="img/9SD24/b9-1.JPG"><img src="img/9SD24/b9-1.JPG" alt="Image" style="width:210px;height:268px;"></a>
-                </li>
-                <li>
-                    <a href="img/9SD24/b9-2.JPG"><img src="img/9SD24/b9-2.JPG" alt="Image" style="width:210px;height:268px;"></a>
-                </li>
-                <li>
-                    <a href="img/9SD24/b9-3.JPG"><img src="img/9SD24/b9-3.JPG" alt="Image" style="width:210px;height:268px;"></a>
-                </li>
-                <li>
-                    <a href="img/9SD24/b9-4.JPG"><img src="img/9SD24/b9-4.JPG" alt="Image" style="width:210px;height:268px;"></a>
-                </li>
-                <li>
-                    <a href="img/9SD24/b9-5.JPG"><img src="img/9SD24/b9-5.JPG" alt="Image" style="width:210px;height:268px;"></a>
-                </li>
-                
-             	</ul>
-		</div>
-                      <div id="gallery">
-                                   <h1>Bathroom 1 </h1>
-                               <ul>
-                               
-                <li>
-                    <a href="img/9SD24/bath-1.jpg"><img src="img/9SD24/bath-1.jpg" alt="bath" style="width:210px;height:268px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/9SD24/bath-2.jpg"><img src="img/9SD24/bath-2.jpg" alt="bath" style="width:210px;height:268px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/9SD24/bath-3.jpg"><img src="img/9SD24/bath-3.jpg" alt="bath" style="width:210px;height:268px;"></a>
-                    
-                </li>
-                
-                
-			</ul>
-		</div>		
-	</div>
+
+   Super for single professional or student. Double glazed window. Gas central heating.
+   Plenty spaces in front of the house for parking.  <br><br><br>
+
+   Video tour:<br>
+   <!--video width="480" height="640" controls>
+     <source src="img/9SD24/24whole - SD 480p.mp4" type="video/mp4">
+   </video-->
+
+                <a href ="Video24.html">Video tour link</a>
+   </h3>
+        
+               
+               
+               
+            </div>
+<br><br><br>
+            
 	
 </body>
 </html>

@@ -3,9 +3,10 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>萨里大学房源 GU28FD</title>
+	<title>萨里大学房源 GU28FD flat</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!--[if IE 8]>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--[if IE 8]>
 		<link rel="stylesheet" type="text/css" href="css/ie8.css">
 	<![endif]-->
 	<!--[if IE 7]>
@@ -15,6 +16,8 @@
 		<link rel="stylesheet" type="text/css" href="css/ie6.css">
 	<![endif]-->
 	<style>
+        .mySlides {display:none;}
+
 	.pagination {
 	    display: inline-block;
 	}
@@ -57,16 +60,84 @@
 			</div>
 		</div>
 	</div>
-	<div id="body">
-		 <div class="content">
+    <div id="body">
+        <div class="w3-center">
+        
+        <h2>
+            <p> Flat - 8 min walk to University of Surrey<br>
+            1室0厅1厨1卫 步行到校7分钟</p></h2>
+        <!--h3 class="w3-center">Please use the buttons for Slideshow<br>
+        使用左右按键浏览图片</h3-->
+      <button class="w3-button demo" onclick="currentDiv(1)">Floorplan</button>
+      <button class="w3-button demo" onclick="currentDiv(2)">Kitchen</button>
+      <button class="w3-button demo" onclick="currentDiv(3)">Kitchen</button>
+      <button class="w3-button demo" onclick="currentDiv(4)">Bedroom</button>
+      <button class="w3-button demo" onclick="currentDiv(5)">Bedroom</button>
+      <button class="w3-button demo" onclick="currentDiv(6)">Bedroom</button>
+      <button class="w3-button demo" onclick="currentDiv(7)">Bedroom</button>
+      <button class="w3-button demo" onclick="currentDiv(8)">Bathroom</button>
+      <button class="w3-button demo" onclick="currentDiv(9)">Map</button>
+      <button class="w3-button demo" onclick="currentDiv(10)">Exterior</button>
+      
+    </div>
+       <div class="w3-content w3-display-container" >
+           <img class="mySlides" src="img/8FD/USfloorplan.png" style="width:60%">
+         <img class="mySlides" src="img/8FD/USkitchen1.jpg" style="width:60%">
+         <img class="mySlides" src="img/8FD/USkitchen2.jpg" style="width:60%">
+         <img class="mySlides" src="img/8FD/USbed1.jpg" style="width:60%">
+             <img class="mySlides" src="img/8FD/USbed2.jpg" style="width:60%">
+                 <img class="mySlides" src="img/8FD/USbed3.jpg" style="width:60%">
+                     <img class="mySlides" src="img/8FD/USbed4.jpg" style="width:60%">
+         <img class="mySlides" src="img/8FD/USbath.jpg" style="width:60%">
+         <img class="mySlides" src="img/8FD/USmap.png" style="width:60%">
+         <img class="mySlides" src="img/8FD/10outside.JPG" style="width:60%">
+         
+   <div class="w3-section">
+                       <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">❮ Prev(上一张)</button>
+                       <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">Next(下一张)❯</button>
+                     </div>
+                     
+                     
+                     <script>
+                     var slideIndex = 1;
+                     showDivs(slideIndex);
 
-		  	<!--
-		      	<img  src="images/logo - Banner2.png" alt="Man Algorithm" class="pull-right"/>
-			-->
+                     function plusDivs(n) {
+                       showDivs(slideIndex += n);
+                     }
 
-			<h1>
-				<p> Flat - 8 min walk to University of Surrey</p></h1>
-            <h2 style="background-color:Pink; color=#fff">
+                     function currentDiv(n) {
+                       showDivs(slideIndex = n);
+                     }
+
+                     function showDivs(n) {
+                       var i;
+                       var x = document.getElementsByClassName("mySlides");
+                       var dots = document.getElementsByClassName("demo");
+                       if (n > x.length) {slideIndex = 1}
+                       if (n < 1) {slideIndex = x.length}
+                       for (i = 0; i < x.length; i++) {
+                         x[i].style.display = "none";
+                       }
+                       for (i = 0; i < dots.length; i++) {
+                         dots[i].className = dots[i].className.replace(" w3-red", "");
+                       }
+                       x[slideIndex-1].style.display = "block";
+                       dots[slideIndex-1].className += " w3-red";
+                     }
+                     </script>
+                     
+                     </div>
+                     
+                     
+                     
+         <div class="content">
+
+              <!--
+                  <img  src="images/logo - Banner2.png" alt="Man Algorithm" class="pull-right"/>
+            -->
+
+            <h3 style="background-color:Pink; color=#fff">
                 <table style="width:100%">
                     <tr>
                         <th>Email</th>
@@ -89,79 +160,32 @@
                     </tr>
                 </table>
                 
-            </h2>
-            <h2>
+            </h3>
+            <h3>
 
-                 <p>The property is 8 min away from both the university and Tesco (superstore), by walk. 1 min walk to bus stops, local shops.<br>
-                 The flat consists of a large bedroom, an independent kitchen, and a private bathroom (toilet, basin, and shower/bath).
-                 Super for single professional or couples. New boiler/washing machine/double glazed window. Gas central heating.
-                 Plenty space in front of the house for parking. A small park with exercising equipments in front of the house as well. <br>
-                 Some bills are inclusive, including water and broadband (350Mbps!). <br>
-                 
-                 No pets. No tenants on benefit or on other government aids.
-                 The house locates in a quiet neighborhood while super convenient with buses and walking distance to University, Hospital, and Tesco. </p>
+                <p>The property is 8 min away from both the university and Tesco (superstore), by walk. 1 min walk to bus stops, local shops.<br>
+                The flat consists of a large bedroom, an independent kitchen, and a private bathroom (toilet, basin, and shower/bath).
+                Super for single professional or couples. New boiler/washing machine/double glazed window. Gas central heating.
+                Plenty space in front of the house for parking. A small park with exercising equipments in front of the house as well. <br>
+                Some bills are inclusive, including water and broadband (350Mbps!). <br>
+                
+                No pets. No tenants on benefit or on other government aids.
+                The house locates in a quiet neighborhood while super convenient with buses and walking distance to University, Hospital, and Tesco. </p>
 
-Super for single professional or student. Double glazed window. Gas central heating. 
+Super for single professional or student. Double glazed window. Gas central heating.
 Parking in front of the house.  <br><br><br>
 
 Video tour:<br>
 <!--video width="480" height="640" controls>
-  <source src="img/9SD24/24whole - SD 480p.mp4" type="video/mp4">
+ <source src="img/9SD24/24whole - SD 480p.mp4" type="video/mp4">
 </video-->
 
-             <a href ="Video10-US.html">Video tour link</a>
-
-<!--video width="360" height="640" controls>
-  <source src="img/8FD/10-US.mp4" type="video/mp4">
-</video-->
-</h2>
-		</div>
-		<div id="gallery">
-			<ul>
-                <li>
-                    <a href="img/8FD/USbed1.jpg"><img src="img/8FD/USbed1.jpg" alt="front of house" style="width:210px;height:260px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/8FD/USbed2.jpg"><img src="img/8FD/USbed2.jpg" alt="Image" style="width:210px;height:260px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/8FD/USbed3.jpg"><img src="img/8FD/USbed3.jpg" alt="Image" style="width:210px;height:260px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/8FD/USbed4.jpg"><img src="img/8FD/USbed4.jpg" alt="Image" style="width:210px;height:260px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/8FD/USkitchen1.jpg"><img src="img/8FD/USkitchen1.jpg" alt="Image" style="width:210px;height:260px;"></a>
-                </li>
-                <li>
-                    <a href="img/8FD/USkitchen2.jpg"><img src="img/8FD/USkitchen2.jpg" alt="Image" style="width:210px;height:260px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/8FD/USbath.jpg"><img src="img/8FD/USbath.jpg" alt="Image" style="width:210px;height:260px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/8FD/USfloorplan.png"><img src="img/8FD/USfloorplan.png" alt="Image" style="width:210px;height:260px;"></a>
-                    
-                </li>
-                <li>
-                    <a href="img/8FD/USmap.png"><img src="img/8FD/USmap.png" alt="Image" style="width:210px;height:260px;"></a>
-                    
-                </li>
-		<li>
-                    <a href="img/8FD/10outside.JPG"><img src="img/8FD/10outside.JPG" alt="Image" style="width:210px;height:260px;"></a>
-                    
-                </li>
-                
-			</ul>
-		</div>
-					
-	</div>
+            <a href ="Video10-US.html">Video tour link</a>
+</h3>
+        </div>
+          
+                                  
+    </div>
 	
 </body>
 </html>
